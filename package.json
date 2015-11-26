@@ -5,15 +5,15 @@
   "author": "Jake Varness <jake.varness@gmail.com>",
   "license": "MIT",
 
-  "keywords": "hubot, hubot-scripts, untappd",
+  "keywords": ["hubot", "hubot-scripts", "untappd"],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-hubot-untappd.git"
+    "url": "git://github.com/jvarness/hubot-untappd.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-hubot-untappd/issues"
+    "url": "https://github.com/jvarness/hubot-untappd/issues"
   },
 
   "dependencies": {
