@@ -1,4 +1,4 @@
-## hubot-untappd
+## hubot-beer-me
 
 Enables hubot to suggest a beer for your next night on the town.
 
@@ -6,20 +6,20 @@ See [`src/beer-me.coffee`](src/beer-me.coffee) for full documentation.
 
 ## Build and Static Analysis
 
-[![Build Status](https://travis-ci.org/jvarness/hubot-untappd.svg)](https://travis-ci.org/jvarness/hubot-untappd)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/c992d17ac4664e6d913aefe9fe1cd072)](https://www.codacy.com/app/jvarness/hubot-untappd)
+[![Build Status](https://travis-ci.org/jvarness/hubot-beer-me.svg)](https://travis-ci.org/jvarness/hubot-beer-me)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/c992d17ac4664e6d913aefe9fe1cd072)](https://www.codacy.com/app/jvarness/hubot-beer-me)
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-untappd --save`
+`npm install hubot-beer-me --save`
 
-Then add **hubot-untappd** to your `external-scripts.json`:
+Then add **hubot-beer-me** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-untappd"
+  "hubot-beer-me"
 ]
 ```
 
@@ -36,7 +36,7 @@ All of these should be configured using the API keys given to you when you signe
 
 ## Sample Interaction
 
-The hubot-untappd package gives your hubot the ability to search for new and exciting beers to try next time you go out. For example,
+The hubot-beer-me package gives your hubot the ability to search for new and exciting beers to try next time you go out. For example,
 if you're a fan of stout, ask your bot to beer you some stout by typing `hubot beer me stout`:
 
 ```

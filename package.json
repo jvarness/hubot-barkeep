@@ -1,5 +1,5 @@
 {
-  "name": "hubot-untappd",
+  "name": "hubot-beer-me",
   "description": "A hubot script for the 21-and-older crowd that beers you.",
   "version": "0.1.0",
   "author": "Jake Varness <jake.varness@gmail.com>",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jvarness/hubot-untappd.git"
+    "url": "git://github.com/jvarness/hubot-beer-me.git"
   },
   "bugs": {
-    "url": "https://github.com/jvarness/hubot-untappd/issues"
+    "url": "https://github.com/jvarness/hubot-beer-me/issues"
   },
   "dependencies": {},
   "peerDependencies": {
