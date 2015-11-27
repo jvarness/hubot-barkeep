@@ -1,4 +1,4 @@
-## hubot-beer-me
+## hubot-barkeep
 
 Enables hubot to suggest a beer for your next night on the town.
 
@@ -6,20 +6,20 @@ See [`src/beer-me.coffee`](src/beer-me.coffee) for full documentation.
 
 ## Build and Static Analysis
 
-[![Build Status](https://travis-ci.org/jvarness/hubot-beer-me.svg)](https://travis-ci.org/jvarness/hubot-beer-me)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/c992d17ac4664e6d913aefe9fe1cd072)](https://www.codacy.com/app/jvarness/hubot-beer-me)
+[![Build Status](https://travis-ci.org/jvarness/hubot-barkeep.svg)](https://travis-ci.org/jvarness/hubot-barkeep)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/2a6f69093d254ab995f70123c7419f29)](https://www.codacy.com/app/jvarness/hubot-barkeep)
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-beer-me --save`
+`npm install hubot-barkeep --save`
 
-Then add **hubot-beer-me** to your `external-scripts.json`:
+Then add **hubot-barkeep** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-beer-me"
+  "hubot-barkeep"
 ]
 ```
 
@@ -36,7 +36,7 @@ All of these should be configured using the API keys given to you when you signe
 
 ## Sample Interaction
 
-The hubot-beer-me package gives your hubot the ability to search for new and exciting beers to try next time you go out. For example,
+The hubot-barkeep package gives your hubot the ability to search for new and exciting beers to try next time you go out. For example,
 if you're a fan of stout, ask your bot to beer you some stout by typing `hubot beer me stout`:
 
 ```
