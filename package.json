@@ -1,5 +1,5 @@
 {
-  "name": "hubot-hubot-untappd",
+  "name": "hubot-untappd",
   "description": "A hubot script for the 21-and-older crowd that beers you.",
   "version": "0.1.0",
   "author": "Jake Varness <jake.varness@gmail.com>",
