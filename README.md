@@ -42,12 +42,12 @@ if you're a fan of stout, ask your bot to beer you some stout by typing `hubot b
 ```
 <You> hubot beer me stout
 <hubot> Give this beer a try:
-<hubot> Oskar Blues Brewery Ten FIDY
-<hubot> Stout - American Imperial / Double
-<hubot> This titanic, immensely viscous stout is loaded with inimitable flavors of chocolate-covered caramel and coffee and hide a hefty 98 IBUs underneath the smooth blanket of malt. It is made with enormous amounts of two-row malt, chocolate malt, roasted barley, flaked oats and hops.
+<hubot> Stone Brewing Co. Coffee Milk Stout
+<hubot> Stout - Milk / Sweet
+<hubot> URL: http://www.stonebrewing.com/
 ```
 
-Mmmmm... Titanic **AND** viscous.
+Mmmmm... Coffee stout.
 
 Let's say that *types* of beer aren't really your style and you just like beers from certain *breweries*. The Untappd API allows 
 you to search for beer based on a brewery or a beer type. Try replacing `stout` with `boulevard`:
@@ -55,12 +55,12 @@ you to search for beer based on a brewery or a beer type. Try replacing `stout` 
 ```
 <You> hubot beer me boulevard
 <hubot> Give this beer a try:
-<hubot> Boulevard Brewing Co. Double-Wide I.P.A.
-<hubot> IPA - Imperial / Double
-<hubot> The classic India Pale Ale is a traveler’s beer, aggressively hopped to withstand the long, hot ocean voyage to the British East Indies. Our Double-Wide I.P.A. also travels well, and is right at home in the most exotic ports of call of the Midwest. While this modern-day prairie schooner may not resemble a graceful sailing sloop, our liberal hopping regimen does make her virtually “twister-proof,” with toffee and caramel notes balancing out the lingering bitterness. Enjoy this beer fresh to best appreciate the complex blending of hop aromas, ranging from minty to citrusy, with subtle hints of pine.
+<hubot> Boulevard Brewing Co. Collaboration No. 5 - Tropical Pale Ale
+<hubot> Pale Ale - American
+<hubot> URL: http://www.boulevard.com/
 ```
 
-Not really a fan of IPAs, but that'll do I guess.
+Tropical Pale Ale huh? I might have to try that sometime.
 
 Untappd will get upset if you don't provide it a term or if you provide it a term that it doesn't recognize:
 
