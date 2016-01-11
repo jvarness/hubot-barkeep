@@ -3,7 +3,7 @@
 #
 # Configuration:
 #   HUBOT_UNTAPPD_CLIENT_ID
-#		HUBOT_UNTAPPD_CLIENT_SECRET
+#   HUBOT_UNTAPPD_CLIENT_SECRET
 #
 # Commands:
 #   hubot beer me <term> - find a random beer using a term.
@@ -38,7 +38,7 @@ module.exports = (robot) ->
         beer = msg.random response.response.beers.items
         msg.send "#{beer.brewery.brewery_name} #{beer.beer.beer_name}"
         msg.send "#{beer.beer.beer_style}"
-        msg.send "#{beer.beer.beer_description}"
+        msg.send "URL: #{beer.brewery.contact.url}" unless !beer.brewery.contact.url
       else
         msg.send "Couldn't find a beer for you. Try again."
   
