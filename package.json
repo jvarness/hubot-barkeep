@@ -1,7 +1,7 @@
 {
   "name": "hubot-barkeep",
   "description": "A hubot script for the 21-and-older crowd that beers you.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jake Varness <jake.varness@gmail.com>",
   "license": "MIT",
   "keywords": [
